@@ -64,7 +64,7 @@
   
   }
   
-  /* ---------------Task1---------------- */
+  
   #categories {
     display: flex;
     flex-direction: column;
@@ -113,7 +113,7 @@
   
   
   
-  /* ---------------Task2---------------- */
+ 
   
  
     .gallery {
@@ -170,7 +170,7 @@ input#name-input:focus {
   border-color: #000;
 }
   
-  /* ---------------Task4---------------- */
+
   
   .login-form,
   label {
@@ -246,8 +246,7 @@ input#name-input:focus {
   
   
  
-  
-  /* ---------------Task5---------------- */
+
     .widget {
     text-align: center;
      
@@ -291,7 +290,7 @@ input#name-input:focus {
       letter-spacing: 0.04em;
     }
   
-  /* ---------------Task6---------------- */
+  
   
   
   
