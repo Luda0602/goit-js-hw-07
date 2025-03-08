@@ -1,9 +1,7 @@
-//Отримання категорії
-const items = document.querySelectorAll('.item');
+const numberOfCategories = document.querySelectorAll(".item");
+console.log(`Number of categories: ${numberOfCategories.length}`);
 
-console.log(`Number of categories: ${categories.length}`);
-//перебирання кожну категорію
-items.forEach(item => {
+numberOfCategories.forEach(item => {
     console.log(`Category: ${item.querySelector("h2").textContent}`);
     console.log(`Elements: ${item.querySelectorAll("ul li").length}`);
 })

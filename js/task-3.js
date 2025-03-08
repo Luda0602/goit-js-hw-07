@@ -1,15 +1,7 @@
+const newInput = document.querySelector("#name-input");
+const newOutput = document.querySelector("#name-output");
 
-//Отримання доступу до елементів
-const nameInput = document.getElementById('name-input');
-const nameOutput = document.getElementById('name-output');
-
-//додається обробник події
-nameInput.addEventListener('click', () => {
-    const trimmedName = nameInput.value.trim();
-    if (trimmedName === '') {
-        nameOutput.textContent = 'Anonymous';
-    } else {
-        nameOutput.textContent = trimmedName;
-    }
-    nameInput.value = '';
+newInput.addEventListener("input",(event)=>{
+    const value = event.target.value.trim();
+    newOutput.textContent = value || "Anonymous";
 });
